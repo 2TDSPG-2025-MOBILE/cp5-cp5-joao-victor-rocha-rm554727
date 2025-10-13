@@ -1,6 +1,7 @@
 {
   "name": "calculadora-cientifica",
   "version": "1.0.0",
+  "type": "module",
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
     "start": "expo start",
@@ -8,6 +9,7 @@
     "ios": "expo start --ios",
     "web": "expo start --web",
     "test": "node test-calculator-cjs.js",
+    "check-syntax": "node check-syntax.js",
     "lint": "eslint src/ App.js --fix",
     "lint:check": "eslint src/ App.js"
   },

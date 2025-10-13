@@ -43,15 +43,13 @@ jobs:
     - name: Verificar sintaxe JavaScript
       run: |
         echo "Verificando sintaxe dos arquivos JavaScript..."
-        npx eslint --init --config .eslintrc.js || true
-        find src -name "*.js" -exec node -c {} \; || (echo "❌ Erro de sintaxe encontrado" && exit 1)
-        node -c App.js || (echo "❌ Erro de sintaxe em App.js" && exit 1)
+        npm run check-syntax || (echo "❌ Erro de sintaxe encontrado" && exit 1)
         echo "✅ Sintaxe JavaScript verificada"
 
     - name: Executar testes das funções
       run: |
         echo "Executando testes das funções matemáticas..."
-        node test-calculator.js || (echo "❌ Testes falharam" && exit 1)
+        npm test || (echo "❌ Testes falharam" && exit 1)
         echo "✅ Testes das funções passaram"
 
     - name: Verificar imports e exports
