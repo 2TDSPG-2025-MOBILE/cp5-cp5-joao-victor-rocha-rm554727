@@ -17,7 +17,7 @@ web-build/
 .metro-health-check*
 
 # Test files
-test-calculator.js
+# test-calculator.js (removed to include in repository)
 
 # ESLint cache
 .eslintcache
