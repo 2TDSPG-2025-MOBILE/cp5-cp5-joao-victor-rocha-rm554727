@@ -23,6 +23,7 @@ npm start
 
 **João Victor Rocha** - RM554727
 **Vinicius Souza Carvalho** - RM556089
-**Thomas Rodrigues** - RMXXXXX
+**Thomas Rodrigues** - RM558042
+
 
 **Turma:** 2TDSPG - FIAP 2025
