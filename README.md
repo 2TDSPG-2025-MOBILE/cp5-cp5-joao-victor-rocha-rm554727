@@ -24,6 +24,10 @@ npm start
 **João Victor Rocha** - RM554727
 **Vinicius Souza Carvalho** - RM556089
 **Thomas Rodrigues** - RM558042
+**Miguel Barros Ramos** - RM556652
+**Pedro Valentim** - RM556826
+
+
 
 
 **Turma:** 2TDSPG - FIAP 2025
